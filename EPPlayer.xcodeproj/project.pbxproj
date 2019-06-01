@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3049541322A2B148003EB210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049541222A2B148003EB210 /* AppDelegate.m */; };
+		3049541622A2B148003EB210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049541522A2B148003EB210 /* ViewController.m */; };
+		3049541922A2B148003EB210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3049541722A2B148003EB210 /* Main.storyboard */; };
+		3049541C22A2B148003EB210 /* EPPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3049541A22A2B148003EB210 /* EPPlayer.xcdatamodeld */; };
+		3049541E22A2B149003EB210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3049541D22A2B149003EB210 /* Assets.xcassets */; };
+		3049542122A2B149003EB210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3049541F22A2B149003EB210 /* LaunchScreen.storyboard */; };
+		3049542422A2B149003EB210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049542322A2B149003EB210 /* main.m */; };
+		3049542E22A2B149003EB210 /* EPPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049542D22A2B149003EB210 /* EPPlayerTests.m */; };
+		3049543922A2B149003EB210 /* EPPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049543822A2B149003EB210 /* EPPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3049542A22A2B149003EB210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3049540622A2B148003EB210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3049540D22A2B148003EB210;
+			remoteInfo = EPPlayer;
+		};
+		3049543522A2B149003EB210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3049540622A2B148003EB210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3049540D22A2B148003EB210;
+			remoteInfo = EPPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3049540E22A2B148003EB210 /* EPPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049541122A2B148003EB210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3049541222A2B148003EB210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3049541422A2B148003EB210 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3049541522A2B148003EB210 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3049541822A2B148003EB210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3049541B22A2B148003EB210 /* EPPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EPPlayer.xcdatamodel; sourceTree = "<group>"; };
+		3049541D22A2B149003EB210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3049542022A2B149003EB210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3049542222A2B149003EB210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3049542322A2B149003EB210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3049542922A2B149003EB210 /* EPPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049542D22A2B149003EB210 /* EPPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPlayerTests.m; sourceTree = "<group>"; };
+		3049542F22A2B149003EB210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3049543422A2B149003EB210 /* EPPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049543822A2B149003EB210 /* EPPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPlayerUITests.m; sourceTree = "<group>"; };
+		3049543A22A2B149003EB210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3049540B22A2B148003EB210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049542622A2B149003EB210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049543122A2B149003EB210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3049540522A2B148003EB210 = {
+			isa = PBXGroup;
+			children = (
+				3049541022A2B148003EB210 /* EPPlayer */,
+				3049542C22A2B149003EB210 /* EPPlayerTests */,
+				3049543722A2B149003EB210 /* EPPlayerUITests */,
+				3049540F22A2B148003EB210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3049540F22A2B148003EB210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3049540E22A2B148003EB210 /* EPPlayer.app */,
+				3049542922A2B149003EB210 /* EPPlayerTests.xctest */,
+				3049543422A2B149003EB210 /* EPPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3049541022A2B148003EB210 /* EPPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3049541122A2B148003EB210 /* AppDelegate.h */,
+				3049541222A2B148003EB210 /* AppDelegate.m */,
+				3049541422A2B148003EB210 /* ViewController.h */,
+				3049541522A2B148003EB210 /* ViewController.m */,
+				3049541722A2B148003EB210 /* Main.storyboard */,
+				3049541D22A2B149003EB210 /* Assets.xcassets */,
+				3049541F22A2B149003EB210 /* LaunchScreen.storyboard */,
+				3049542222A2B149003EB210 /* Info.plist */,
+				3049542322A2B149003EB210 /* main.m */,
+				3049541A22A2B148003EB210 /* EPPlayer.xcdatamodeld */,
+			);
+			path = EPPlayer;
+			sourceTree = "<group>";
+		};
+		3049542C22A2B149003EB210 /* EPPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3049542D22A2B149003EB210 /* EPPlayerTests.m */,
+				3049542F22A2B149003EB210 /* Info.plist */,
+			);
+			path = EPPlayerTests;
+			sourceTree = "<group>";
+		};
+		3049543722A2B149003EB210 /* EPPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3049543822A2B149003EB210 /* EPPlayerUITests.m */,
+				3049543A22A2B149003EB210 /* Info.plist */,
+			);
+			path = EPPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3049540D22A2B148003EB210 /* EPPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3049543D22A2B149003EB210 /* Build configuration list for PBXNativeTarget "EPPlayer" */;
+			buildPhases = (
+				3049540A22A2B148003EB210 /* Sources */,
+				3049540B22A2B148003EB210 /* Frameworks */,
+				3049540C22A2B148003EB210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPPlayer;
+			productName = EPPlayer;
+			productReference = 3049540E22A2B148003EB210 /* EPPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3049542822A2B149003EB210 /* EPPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3049544022A2B149003EB210 /* Build configuration list for PBXNativeTarget "EPPlayerTests" */;
+			buildPhases = (
+				3049542522A2B149003EB210 /* Sources */,
+				3049542622A2B149003EB210 /* Frameworks */,
+				3049542722A2B149003EB210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3049542B22A2B149003EB210 /* PBXTargetDependency */,
+			);
+			name = EPPlayerTests;
+			productName = EPPlayerTests;
+			productReference = 3049542922A2B149003EB210 /* EPPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3049543322A2B149003EB210 /* EPPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3049544322A2B149003EB210 /* Build configuration list for PBXNativeTarget "EPPlayerUITests" */;
+			buildPhases = (
+				3049543022A2B149003EB210 /* Sources */,
+				3049543122A2B149003EB210 /* Frameworks */,
+				3049543222A2B149003EB210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3049543622A2B149003EB210 /* PBXTargetDependency */,
+			);
+			name = EPPlayerUITests;
+			productName = EPPlayerUITests;
+			productReference = 3049543422A2B149003EB210 /* EPPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3049540622A2B148003EB210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Roman Berezin";
+				TargetAttributes = {
+					3049540D22A2B148003EB210 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3049542822A2B149003EB210 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3049540D22A2B148003EB210;
+					};
+					3049543322A2B149003EB210 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3049540D22A2B148003EB210;
+					};
+				};
+			};
+			buildConfigurationList = 3049540922A2B148003EB210 /* Build configuration list for PBXProject "EPPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3049540522A2B148003EB210;
+			productRefGroup = 3049540F22A2B148003EB210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3049540D22A2B148003EB210 /* EPPlayer */,
+				3049542822A2B149003EB210 /* EPPlayerTests */,
+				3049543322A2B149003EB210 /* EPPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3049540C22A2B148003EB210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049542122A2B149003EB210 /* LaunchScreen.storyboard in Resources */,
+				3049541E22A2B149003EB210 /* Assets.xcassets in Resources */,
+				3049541922A2B148003EB210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049542722A2B149003EB210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049543222A2B149003EB210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3049540A22A2B148003EB210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049541C22A2B148003EB210 /* EPPlayer.xcdatamodeld in Sources */,
+				3049541622A2B148003EB210 /* ViewController.m in Sources */,
+				3049542422A2B149003EB210 /* main.m in Sources */,
+				3049541322A2B148003EB210 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049542522A2B149003EB210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049542E22A2B149003EB210 /* EPPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049543022A2B149003EB210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049543922A2B149003EB210 /* EPPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3049542B22A2B149003EB210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3049540D22A2B148003EB210 /* EPPlayer */;
+			targetProxy = 3049542A22A2B149003EB210 /* PBXContainerItemProxy */;
+		};
+		3049543622A2B149003EB210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3049540D22A2B148003EB210 /* EPPlayer */;
+			targetProxy = 3049543522A2B149003EB210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3049541722A2B148003EB210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3049541822A2B148003EB210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3049541F22A2B149003EB210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3049542022A2B149003EB210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3049543B22A2B149003EB210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3049543C22A2B149003EB210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3049543E22A2B149003EB210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2972QR8JG;
+				INFOPLIST_FILE = EPPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArrowDesign.EPPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3049543F22A2B149003EB210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2972QR8JG;
+				INFOPLIST_FILE = EPPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArrowDesign.EPPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3049544122A2B149003EB210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2972QR8JG;
+				INFOPLIST_FILE = EPPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArrowDesign.EPPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPPlayer.app/EPPlayer";
+			};
+			name = Debug;
+		};
+		3049544222A2B149003EB210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2972QR8JG;
+				INFOPLIST_FILE = EPPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArrowDesign.EPPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPPlayer.app/EPPlayer";
+			};
+			name = Release;
+		};
+		3049544422A2B149003EB210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2972QR8JG;
+				INFOPLIST_FILE = EPPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArrowDesign.EPPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPPlayer;
+			};
+			name = Debug;
+		};
+		3049544522A2B149003EB210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2972QR8JG;
+				INFOPLIST_FILE = EPPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArrowDesign.EPPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3049540922A2B148003EB210 /* Build configuration list for PBXProject "EPPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049543B22A2B149003EB210 /* Debug */,
+				3049543C22A2B149003EB210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3049543D22A2B149003EB210 /* Build configuration list for PBXNativeTarget "EPPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049543E22A2B149003EB210 /* Debug */,
+				3049543F22A2B149003EB210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3049544022A2B149003EB210 /* Build configuration list for PBXNativeTarget "EPPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049544122A2B149003EB210 /* Debug */,
+				3049544222A2B149003EB210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3049544322A2B149003EB210 /* Build configuration list for PBXNativeTarget "EPPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049544422A2B149003EB210 /* Debug */,
+				3049544522A2B149003EB210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3049541A22A2B148003EB210 /* EPPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3049541B22A2B148003EB210 /* EPPlayer.xcdatamodel */,
+			);
+			currentVersion = 3049541B22A2B148003EB210 /* EPPlayer.xcdatamodel */;
+			path = EPPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3049540622A2B148003EB210 /* Project object */;
+}

@@ -16,6 +16,10 @@
 		3049542422A2B149003EB210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049542322A2B149003EB210 /* main.m */; };
 		3049542E22A2B149003EB210 /* EPPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049542D22A2B149003EB210 /* EPPlayerTests.m */; };
 		3049543922A2B149003EB210 /* EPPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049543822A2B149003EB210 /* EPPlayerUITests.m */; };
+		3049545922A2BFA0003EB210 /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 3049545722A2BFA0003EB210 /* AFNetworking */; };
+		3049545A22A2BFA0003EB210 /* UIKit+AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 3049545822A2BFA0003EB210 /* UIKit+AFNetworking */; };
+		3049546022A2C407003EB210 /* RBServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049545F22A2C407003EB210 /* RBServerManager.m */; };
+		EDC75D8FCA0E9C56BCFF6308 /* libPods-EPPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2976441ACAC20791E6D73C71 /* libPods-EPPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20C61528834F79EA59EFB2B6 /* Pods-EPPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPPlayer.release.xcconfig"; path = "Target Support Files/Pods-EPPlayer/Pods-EPPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		2976441ACAC20791E6D73C71 /* libPods-EPPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EPPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3049540E22A2B148003EB210 /* EPPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3049541122A2B148003EB210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3049541222A2B148003EB210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +59,11 @@
 		3049543422A2B149003EB210 /* EPPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3049543822A2B149003EB210 /* EPPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPlayerUITests.m; sourceTree = "<group>"; };
 		3049543A22A2B149003EB210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3049545722A2BFA0003EB210 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
+		3049545822A2BFA0003EB210 /* UIKit+AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIKit+AFNetworking"; sourceTree = "<group>"; };
+		3049545E22A2C407003EB210 /* RBServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBServerManager.h; sourceTree = "<group>"; };
+		3049545F22A2C407003EB210 /* RBServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBServerManager.m; sourceTree = "<group>"; };
+		972375BA604B618411EE0866 /* Pods-EPPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPPlayer.debug.xcconfig"; path = "Target Support Files/Pods-EPPlayer/Pods-EPPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC75D8FCA0E9C56BCFF6308 /* libPods-EPPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +99,8 @@
 				3049542C22A2B149003EB210 /* EPPlayerTests */,
 				3049543722A2B149003EB210 /* EPPlayerUITests */,
 				3049540F22A2B148003EB210 /* Products */,
+				CDAAA085D69F57CED819D352 /* Pods */,
+				F2CC4BEB857A7EC4F96A8C65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +117,10 @@
 		3049541022A2B148003EB210 /* EPPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				3049545E22A2C407003EB210 /* RBServerManager.h */,
+				3049545F22A2C407003EB210 /* RBServerManager.m */,
+				3049545722A2BFA0003EB210 /* AFNetworking */,
+				3049545822A2BFA0003EB210 /* UIKit+AFNetworking */,
 				3049541122A2B148003EB210 /* AppDelegate.h */,
 				3049541222A2B148003EB210 /* AppDelegate.m */,
 				3049541422A2B148003EB210 /* ViewController.h */,
@@ -135,6 +153,24 @@
 			path = EPPlayerUITests;
 			sourceTree = "<group>";
 		};
+		CDAAA085D69F57CED819D352 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				972375BA604B618411EE0866 /* Pods-EPPlayer.debug.xcconfig */,
+				20C61528834F79EA59EFB2B6 /* Pods-EPPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2CC4BEB857A7EC4F96A8C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2976441ACAC20791E6D73C71 /* libPods-EPPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3049543D22A2B149003EB210 /* Build configuration list for PBXNativeTarget "EPPlayer" */;
 			buildPhases = (
+				8C4879E30DB8E0058ED422FE /* [CP] Check Pods Manifest.lock */,
 				3049540A22A2B148003EB210 /* Sources */,
 				3049540B22A2B148003EB210 /* Frameworks */,
 				3049540C22A2B148003EB210 /* Resources */,
@@ -240,7 +277,9 @@
 			files = (
 				3049542122A2B149003EB210 /* LaunchScreen.storyboard in Resources */,
 				3049541E22A2B149003EB210 /* Assets.xcassets in Resources */,
+				3049545A22A2BFA0003EB210 /* UIKit+AFNetworking in Resources */,
 				3049541922A2B148003EB210 /* Main.storyboard in Resources */,
+				3049545922A2BFA0003EB210 /* AFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +299,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C4879E30DB8E0058ED422FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EPPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3049540A22A2B148003EB210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3049541C22A2B148003EB210 /* EPPlayer.xcdatamodeld in Sources */,
+				3049546022A2C407003EB210 /* RBServerManager.m in Sources */,
 				3049541622A2B148003EB210 /* ViewController.m in Sources */,
 				3049542422A2B149003EB210 /* main.m in Sources */,
 				3049541322A2B148003EB210 /* AppDelegate.m in Sources */,
@@ -437,6 +502,7 @@
 		};
 		3049543E22A2B149003EB210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972375BA604B618411EE0866 /* Pods-EPPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +520,7 @@
 		};
 		3049543F22A2B149003EB210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C61528834F79EA59EFB2B6 /* Pods-EPPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

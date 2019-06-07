@@ -159,7 +159,6 @@
 				972375BA604B618411EE0866 /* Pods-EPPlayer.debug.xcconfig */,
 				20C61528834F79EA59EFB2B6 /* Pods-EPPlayer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -234,6 +233,9 @@
 		3049540622A2B148003EB210 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Roman Berezin";
 				TargetAttributes = {
